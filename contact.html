@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Devanarayanan S R</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body class="page-fade">
+  <header class="nav-container">
+    <div class="brand">
+      <a href="index.html" class="logo">Devanarayanan S R</a>
+    </div>
+    <nav class="nav">
+      <a class="nav-btn" href="index.html">Home</a>
+      <a class="nav-btn" href="about.html">About</a>
+      <a class="nav-btn" href="skills.html">Skills</a>
+      <a class="nav-btn" href="projects.html">Projects</a>
+      <a class="nav-btn" href="experience.html">Experience</a>
+      <a class="nav-btn active" href="contact.html">Contact</a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="content-card">
+      <h2>Contact</h2>
+      <p>If you'd like to collaborate or learn more about my work, send a message below or reach out via email.</p>
+
+      <!-- Formspree Form -->
+      <form action="https://formspree.io/f/xdkwjejl" method="POST" class="contact-form">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>
+          <span>Message</span>
+          <textarea name="message" placeholder="Hi — I'd love to collaborate..." rows="6" required></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Send message</button>
+        </div>
+
+        <p id="formMsg" class="form-msg" aria-live="polite">Messages will be sent directly to my email via Formspree.</p>
+      </form>
+
+      <!-- Linktree Section -->
+      <section class="linktree">
+        <h3>Find me everywhere</h3>
+        <p>Check all my social and project links on <a href="https://linktr.ee/man.drian._x" target="_blank" class="accent-link">Linktree</a> 🌐</p>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="signature">Created by <span class="signature-name">Devanarayanan S R</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
